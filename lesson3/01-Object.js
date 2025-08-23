@@ -40,6 +40,13 @@ let bike = {
 }
 bike.color = "black";
 console.log(bike);
+//C2-bt5: 
+let bike ={
+    brand:"car1",
+    type:"type1",
+}
+bike["corlor"]="red";
+console.log(bike);
 //6.Tạo một object employee với các thuộc tính: name, age và xóa thuộc tính age khỏi object này
 let employee = {
     name: "Hana",
